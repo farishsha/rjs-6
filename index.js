@@ -8,7 +8,8 @@ const numbers = [10, 20, 30, 40, 50];
 
 let sum = 0;
 
-// Write your code below
+sum = numbers.reduce((total, num) => total + num, 0);
+
 
 
 
